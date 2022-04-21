@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+/* header */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: #8080807a;
+}
+.navbar-brand{
+    color: antiquewhite;
+}
+.btn:hover{
+    color:  #198754;
+    background-color: #fff;
+    border-color: #198754;
+}
+/*end header */
+/* home page */
+.home_page{
+    background-image: url(../images/beautiful-scenery-river-surrounded-by-greenery-forest_181624-40482.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.home_page_item{
+    background-color: rgba(34, 87, 9, 0.404);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    color: white;
+    padding: 40px;
+    width: 300px;
+    height: 350px;
+    background-color: #8080807a;
+    border-radius: 15px ;
+    text-align: center;
+    line-height: 1.8;
+}
+.title h1{
+    padding: 10px 0px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+.title button{
+    margin-top: 30px;
+    width: 175px;
+}
+.title button:hover{
+   background-color: #198754;
+   color: wheat;
+}
+/* end home page */
+/* sec2 */
+.sec_2{
+    color: black;
+    margin-top: 40px ;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    gap: 40px; 
+}
+/*end  sec2 */
+/* sec3 */
+.sec_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 40px ; */
+    height: 80vh;
+}
+.sec_3_box{
+    height: 80%;
+    width: 80%;
+    background-color: #557840;
+    color: white;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec_3_desc{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sec_3_desc button{
+    width: 100px;
+    margin-left: 50px;
+}
+.sec_3_icons{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec_3_icons i{
+    /* width: 50%; */
+    text-align: center;
+    line-height: 1.5;
+}
+/*end sec3 */
+/* sec4 */
+.sec_4{
+    height: 60vh;
+    background-color: #f3f6fa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec_4_item{
+    width: 30%;
+    text-align: center;
+    line-height: 1.8;
+}
+.sec_4_item i{
+    font-size: 80px;
+    margin: 15px 0px;
+}
+/*end sec4 */
+/* sec5 */
+.sec_5{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec_5_title{
+    padding: 15px 0px;
+    text-align: center;
+}
+.sec_5_photos{
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    line-height: 2.5;
+
+}
+   /* width: 80%; */
+.sec_5_photos_item h4{
+    line-height: 2.5;
+}
+.sec_5_photos .sec_5_photos_item{
+    width: 40%;
+}
+.sec_5_photos_item img{
+    width: 80%;
+}
+.sec_5_photos_item img:hover{
+    transition: 1.5s;
+    transform: scale(1.2);
+}
+/* end sec5 */
+/* sec6 */
+.sec_6{
+    background-image: url(../images/pp3.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sec_6_box{
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+    background-color: #55784087;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+}
+.sec_6_title button{
+    border: none;
+    width: 130px;
+    height: 60px;
+}
+
+/* end sec6 */
+/* footer */
+.footer{
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .icons{
+    font-size: 50px;
+    color: #fff;
+    /* width: 60px; */
+    /* height: 60px; */
+    /* border-radius: 100%; */
+}
+.twi{
+    color: #fff;
+    border-radius: 100%;
+    background:  #70aecd;
+}
+.fa-google{
+    color: #fff;
+    border-radius: 100%;
+    background: #db6b67;
+}
+.fa-github{
+    color: #fff; 
+    border-radius: 100%;
+    background: #dcad8b;
+}
+.face{
+    color: #fff;
+    border-radius: 100%;
+    background: #7490c3;
+}
+.fa-dribbble {
+    border-radius: 100%;
+    background: #da83ae;
+    color: #fff;
+}
+
+.fa{
+    /* font-size: 50px; */
+    /* color: #fff; */
+    padding: 20px;
+    margin: 0px 5px;
+}
+/*end footer */
